@@ -1,5 +1,5 @@
 #!/bin/bash
-exec > my_image.ppm
+exec > my_image.png
 echo "P3 250 250 255"
 for ((y=0; y<250; y++)) {
   for ((x=0; x<250; x++)) {
